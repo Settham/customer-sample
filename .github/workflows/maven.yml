@@ -218,4 +218,3 @@ jobs:
           if [ "${{ vars.K8S_USE_INGRESS || 'false' }}" = "true" ]; then
             kubectl get ingress -n ${{ vars.K8S_NAMESPACE || 'default' }}
           fi
-
