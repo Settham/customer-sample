@@ -21,7 +21,7 @@ function show_usage {
 # Default values
 REGISTRY="registry.cloudraya.com/ir-cr-agatha-4331"
 TAG="latest"
-NAMESPACE="hendi-cluster"
+NAMESPACE="kubernetes-dashboard"
 USE_PERSISTENT=false
 USE_INGRESS=false
 DOMAIN="k8s.jvm.my.id"
